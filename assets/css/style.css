@@ -1,0 +1,29 @@
+
+#animalbuttons{
+    margin-bottom: 30px;
+}
+button{
+    margin:5px ;
+}
+.container{
+    align-items: center;
+}
+img{
+    margin:5px auto;
+   
+}
+
+body{
+    background-color: white;
+}
+a{
+   
+    margin-top:30px;
+}
+input{
+    margin-bottom:10px;
+
+}
+form{
+    margin-bottom:10px;
+}
