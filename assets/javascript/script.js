@@ -9,4 +9,15 @@ $(document).ready(function(){
         console.log(topics);
       }
     }
+    renderButtons();
+
+   
+    function renderButtons(){
+        $("#animalbuttons").empty();
+        $("#animal-input").val("");
+        for (i in topics){
+            button = `<button type="button" class="animalButtons col-md-1 col-sm-2 col-xs-3 btn btn-primary" value= "${topics[i]}" >${topics[i]}</button>`;
+            $("#animalbuttons").append(button);
+         }
+    }
 });
