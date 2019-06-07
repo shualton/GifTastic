@@ -30,8 +30,6 @@ $(document).ready(function(){
         }
     });
 
-    
-
     $(document).on("click",".animalButtons", function(){
         $("#animals").empty();
         let animalName = $(this).val();
