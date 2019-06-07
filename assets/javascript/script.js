@@ -4,7 +4,7 @@ $(document).ready(function(){
     let loopCounter = sessionStorage.getItem("count");
     console.log(loopCounter)
     for(l=0;l <= loopCounter;l++){     
-      if(loopCounter!=""){
+      if(loopCounter!=null){
         topics.push(sessionStorage.getItem("topic-" + l));
         console.log(topics);
       }
